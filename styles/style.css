@@ -1,0 +1,137 @@
+* {
+	font-family: Helvetica;
+}
+
+.container {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 800px;
+	margin: auto;
+	padding: 0px 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.logo {
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+.header {
+	border-bottom: 1px solid #ccc;
+	margin: 15px 0px;
+	padding-bottom: 15px;
+}
+
+.search-bar {
+	text-align: center;
+}
+
+.search-bar input {
+	width: 75%;
+	height: 30px;
+	padding: 0px 10px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: #666;
+}
+
+.album-details {
+	float: left;
+}
+
+.list-group {
+	width: 480px;
+	height: 400px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	overflow-y: scroll;
+}
+
+.list-group-item {
+	cursor: pointer;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 0px;
+}
+
+.list-group-item:first-child, .list-group-item:last-child {
+	margin: 0px;
+}
+
+.list-group-item .album-cover,.list-group-item .details {
+	float: left;
+}
+
+.list-group-item .details {
+	width: 320px;
+	height: 100px;
+	padding: 0px 10px;
+	position: relative;
+}
+
+.list-group-item .details h3 {
+	font-size: 16px;
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+}
+
+.list-group-item .details ul.artists li a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #666;
+}
+
+.list-group-item:hover {
+	background-color: #eee;
+}
+
+.list-group-item .details ul.artists {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+
+.list-group-item .details ul.artists li {
+	display: inline;
+}
+
+.list-group-item .details ul.artists li:after {
+	content: ", ";
+}
+
+.list-group-item .details ul.artists li:last-child:after {
+	content: "";
+}
+
+.list-group-item .details p {
+	padding: 0px 0px 8px 0px;
+	width: 333px;
+	margin:0px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	position: absolute;
+	bottom: 0;
+}
+
+.list-group-item .details p a {
+	font-size: 13px;
+	text-decoration: none;
+	color: #666;
+}
+
+.list-group-item .sample-audio {
+}
+
+.list-group-item .sample-audio audio {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 34px;
+}
